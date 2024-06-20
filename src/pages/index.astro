@@ -1,9 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Dht from '../components/Dht.astro';
 ---
 
-<Layout title="俺滴电脑黑屏啦哇o(╥﹏╥)o.">
+<Layout title="第二次更新">
 	<main>
 		<svg
 			class="astro-a"
@@ -32,8 +33,11 @@ import Card from '../components/Card.astro';
 					<stop offset="1" stop-opacity="0.2"></stop>
 				</linearGradient>
 			</defs>
+			
 		</svg>
-		<h1>我好想吃 <span class="text-gradient">原味蛋挞</span></h1>
+		
+		<Dht />
+		<h1>增加了一个 <span class="text-gradient">导航条的链接组件</span></h1>
 		<p class="instructions">
 			你说得对我确实是嘴馋 <code>TT</code> 而且也没怎么运动。<br />
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
